@@ -18,9 +18,9 @@ jobs:
     steps:
       - name: Generate Token
         id: generate-token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ secrets.CLA_APP_ID }}
+          client-id: ${{ secrets.CLA_APP_ID }}
           private-key: ${{ secrets.CLA_APP_PRIVATE_KEY }}
           repositories: cla-test-private-signatures
 
