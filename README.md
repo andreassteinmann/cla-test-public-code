@@ -1,3 +1,3 @@
 # cla-test-public-code
 
-test 5
+test 6
