@@ -1,3 +1,3 @@
 # cla-test-public-code
 
-test 1
+test branch protection rule
