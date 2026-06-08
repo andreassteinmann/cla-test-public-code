@@ -34,7 +34,7 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ steps.generate-token.outputs.token }}
         with:
           path-to-signatures: 'signatures/version1/cla.json'
-          path-to-document: 'https://github.com/intershop/intershop-pwa/blob/develop/CLA.md'
+          path-to-document: 'https://github.com/intershop/intershop-pwa/blob/main/CLA.md'
           branch: 'main'
           remote-organization-name: andreassteinmann
           remote-repository-name: cla-test-private-signatures
